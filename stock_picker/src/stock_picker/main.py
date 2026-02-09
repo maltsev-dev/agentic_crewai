@@ -13,7 +13,7 @@ def run():
     Run the research crew.
     """
     inputs = {
-        'sector': 'Technology',
+        'sector': 'Mineral Resources',
         "current_date": str(datetime.now())
     }
     result = StockPicker().crew().kickoff(inputs=inputs)
